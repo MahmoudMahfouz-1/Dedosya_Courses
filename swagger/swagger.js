@@ -15,7 +15,11 @@ const options = {
   servers: [
     {
       url: 'http://localhost:3000/api', // Base URL for your API
-      description: 'Local API server',
+      description: 'Local API server for development',
+    },
+    {
+      url: 'dedosyacourses-production.up.railway.app', // Base URL for your API
+      description: 'Global API Server for production',
     },
   ],
   apis: [
